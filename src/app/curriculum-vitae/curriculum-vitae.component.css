@@ -1,0 +1,153 @@
+.headCont {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.intro img {
+    width: 20%;
+    border-radius: 50%;
+    display: inline-block;
+    float: right;
+}
+
+.name {
+    padding-top: 3em;
+    width: 30%;
+}
+
+.name h1, .name h2 {
+    padding: 0;
+    margin: 0;
+    font-family: 'dancing', cursive;
+}
+
+.name h2 {
+    color: #D4AF37;
+    font-size: 16pt;
+    margin: 0 auto;
+}
+
+h1 {
+    display: inline;
+}
+
+.description {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.para {
+    font-size: 18pt;
+    font-style: italic;
+}
+
+.qualityCont {
+    border-left: 3px solid #D4AF37;
+    background-color: white;
+    margin: 2em;
+    box-shadow: 1px 1px 1px 1px #ddd;
+}
+
+.quality {
+    width: 80%;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.title {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding: 0em 1em;
+    width: 30%;
+    font-style: italic;
+    font-family: 'montserrat', sans-serif;
+    Color: #D4AF37;
+}
+
+.right {
+    display: inline-block;
+    padding: 0em 2em;
+    border-left: 2px solid rgb(182, 182, 182);
+    width: 50%;
+}
+
+.right h2 {
+    font-family: 'oswald', sans-serif;
+}
+
+.right p {
+    font-family: 'cormorant', serif;
+    font-size: 15pt;
+}
+.downloadButton {
+    text-align: center;
+}
+
+.downloadButton a {
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+}
+
+.downloadButton button {
+    display: inline-block;
+    border: none;
+    padding: 1.5em 5em;
+    margin: 5em;
+    background-color : #D4AF37;
+    border-radius: 40px;
+}
+
+.downloadButton button:hover {
+    background-color: black;
+}
+
+#down {
+    font-size: 22pt;
+}
+
+#downtext {
+    font-size: 18pt;
+}
+@media only screen and (min-width: 426px) and (max-width: 1023px) {
+    .intro img {
+        width: 40%;
+    }
+    .headCont{
+        width: 80%;
+    }
+    .right {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    .headCont {
+        width: 90%;
+    }
+    .para {
+        font-size: 16pt;
+    }
+    .qualityCont {
+        margin: 2em 0em;
+    }
+    .quality {
+        width: 100%;
+    }
+    .title, .right h2 {
+        font-size: 14pt;
+    }
+    .right {
+        width: 80%;
+    }
+    .intro img {
+        width: 40%;
+    }
+    .name {
+        width: 50%;
+    }
+    .name h1 {
+        font-size: 12pt;
+    }
+}

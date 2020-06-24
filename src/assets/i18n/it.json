@@ -1,0 +1,40 @@
+{
+    "Navbar": {
+        "Home": "Home",
+        "Couture": "Couture",
+        "Collaborations": "Collaborations",
+        "Portfolio": "Portfolio",
+        "CV": "CV",
+        "Contact": "Contact"
+    },
+    "Home": {
+        "Biography": "Conoscere culture diverse non è sempre stato facile. Sono libanese di nascita ma ho trascorso quasi tutta la mia vita nella Repubblica Democratica del Congo. O come mi piace chiamarlo, a casa. Tutto ciò che riguarda il Congo è una fonte d'ispirazione per me ed è per questo che spesso vedrai il tradizionale dresscode congolese integrato rapidamente nei miei progetti. Mi ritrovo a usare il tessuto wax africano in modo quasi inconscio e penso che sia perché i colori mi ricordano la natura lì. Inoltre, il fatto che ho trascorso i miei anni universitari a Venezia, in Italia, mi ha davvero dato l'ispirazione per provare a mescolare alcuni degli aspetti della moda occidentale con la moda congolese durante la progettazione. mi ha reso molto più semplice per cercare di conoscere meglio culture completamente diverse al fine di trovare abbastanza somiglianze tra loro che posso usare nei miei progetti."
+    },
+    "CollaborationsTexts": {
+        "Levis": "Come parte della nuova apertura dell negozio Levis , e su richiesta di Levis il mio team e io abbiamo lavorato insieme per produrre tre abiti in denim. Gli abiti sono stati realizzati per abbinarsi al tema del Carnevale di Venezia 2019, l'apertura del negozio è atterrata quel giorno. Abbiamo camminato a Venezia con modelle vestite in abiti di carnevale e abbiamo terminato la nostra giornata al negozio Levis mettendo gli abiti alla vetrina.",
+        "Banco": "Un progetto di collaborazione con il viaggio nel tempo con l’ Azienda  Banco Lotto NO.10, che includeva rimmaginare il passato. L'idea era quella di creare un abito a maniche a sbuffo negli anni 50. Questo progetto è stato ispirato da Cristobal Balenciaga utilizzando solo tessuto denim. Il progetto è stato anche considerato come la mia tesi personale presso l'Istituto europeo di design."
+    },
+    "Portfolio": {
+        "Download": " Download Portfolio"
+    },
+    "CV": {
+        "Description": "Sono un giovane professionista ambizioso ed estroverso, alla ricerca di una carriera attraverso la quale Posso usare la mia personalità sociale, il gusto elegante e le capacità professionali. Mi piace sfidare me stesso fare meglio e essere orgogliosi di risolvere i problemi. Credo che il lavoro di squadra renda il lavoro più semplice e di più divertente. do il 100% del mio impegno, sono convinta che aggiungerò valore alla vostre azienda.",
+        "Education": "ISTRUZIONE",
+        "Skills": "COMPETENZE",
+        "Experience": "ESPERIENZA",
+        "Hobbies": "HOBBY",
+        "Fashion_Skills": "Competenze di fashion",
+        "Fashion_Skills_Desc": "Designare, creare delle outfit, modellistica (creare un cartamodello), confezionare, produrre una collezione, moulage .",
+        "Computer_Skills": "Competenze Informatiche",
+        "Computer_Skills_Desc": "Adobe Illustrator, Photoshop et inDesign. Morgan Dynamics CAD pour la création de modèles.",
+        "Levis_Workshop": "Un progetto che consiste in una collaborazione tra studenti IED e Levi's Venezia per immaginare e cucire tre abiti di Levi che ruotano attorno al tema del Carnevale di Venezia 2019 per l'apertura di un negozio Levi's a Venezia.",
+        "Banco_Workshop": "Un progetto che prevede la creazione di un completo in denim ispirato al 1950 che fu considerato anche il mio progetto di laurea IED. Le foto dell'outfit sono disponibili nel portfolio",
+        "Hobbies_desc": "Disegnare, cercare abiti alla moda, photoshop, styling.",
+        "Download": " Download CV"
+    },
+    "ContactInfo": {
+        "Location": "Venezia, Italia",
+        "Institute": "European Institute of Design (IED)",
+        "Language": "Francese, Inglese, Arabo e Italiano."
+    }
+}

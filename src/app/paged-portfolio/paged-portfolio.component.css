@@ -1,0 +1,132 @@
+.center {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.pagination {
+    display: inline-block;
+    margin-bottom: 2em;
+}
+
+.pagination, .page {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    margin: 0.5em;
+    cursor: pointer;
+}
+
+.link.active {
+    background-color: #D4AF37;
+    color: white;
+}
+
+.link:hover:not(.active) {
+    background-color: #26272b;
+    color: white;
+}
+
+.page {
+    margin-top: 5em;
+    margin: 0 auto;
+    animation-name: fade;
+    animation-duration: 0.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 0.5s;
+}
+
+.page img {
+    border: 2px solid #ddd;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.downloadButton {
+    text-align: center;
+}
+
+.downloadButton a {
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+}
+
+.downloadButton button {
+    display: inline-block;
+    border: none;
+    padding: 1.5em 5em;
+    margin: 5em;
+    background-color : #D4AF37;
+    border-radius: 40px;
+}
+
+.downloadButton button:hover {
+    background-color: black;
+}
+
+#down {
+    font-size: 22pt;
+}
+
+#downtext {
+    font-size: 18pt;
+}
+
+@media only screen and (min-width:468px) and (max-width:768px) {
+    .page {
+        padding: 2em;
+    }
+    .page img {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    .link {
+        padding: 6px 10px;
+        margin: 0.2em;
+    }
+    .page {
+        padding: 1em;
+    }
+    .page img {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #down {
+        font-size: 14pt;
+    }
+    #downtext {
+        font-size: 12pt;
+    }
+    .downloadButton button {
+        padding: 2em 2em;
+    }
+}

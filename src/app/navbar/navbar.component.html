@@ -1,0 +1,27 @@
+<nav class="nav">
+  <a (click)='showMenu()' class="burgerIcon"><i class="fa fa-bars"></i></a>
+  <div class="logo">
+    <div class="logoText">
+      Liliane Yahfoufi
+    </div>
+  </div>
+  <div class="container">
+
+    <a (click)='closeMenu()' class="closeIcon">&times;</a>
+    <ul class="navbar">
+      <li (click)='closeMenu()' routerLink='home' routerLinkActive='active' class="nav-item">
+        {{'Navbar.Home' | translate}}</li>
+      <li (click)='closeMenu()' routerLink='projects' routerLinkActive='active' class="nav-item">
+        {{'Navbar.Couture' | translate}}</li>
+      <li (click)='closeMenu()' routerLink='collaborations' routerLinkActive='active' class="nav-item">
+        {{'Navbar.Collaborations' | translate}}</li>
+      <li (click)='closeMenu()' routerLink='portfolio' routerLinkActive='active' class="nav-item">
+        {{'Navbar.Portfolio' | translate}}</li>
+      <li (click)='closeMenu()' routerLink='curriculum-vitae' routerLinkActive='active' class="nav-item">
+        {{'Navbar.CV' | translate}}</li>
+      <li (click)='closeMenu()' routerLink='contact' routerLinkActive='active' class="nav-item">
+        {{'Navbar.Contact' | translate}}</li>
+    </ul>
+
+  </div>
+</nav>

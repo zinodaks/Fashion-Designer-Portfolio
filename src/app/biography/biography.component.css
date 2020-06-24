@@ -1,0 +1,129 @@
+#about {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 28pt;
+    letter-spacing: 0.6em;
+    padding-top: 1em;
+    font-family: 'libre', serif;
+}
+
+.first {
+    font-size: 38pt;
+}
+
+#bioImage {
+    width: 25%;
+    margin-left: 5em;
+    margin-top: 2em;
+    border-radius: 50%;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#bioCont {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#bio-text-cont {
+    margin-top: 5%;
+    width: 50%;
+    float: right;
+    margin-right: 8em;
+    font-size: 14pt;
+    font-family: 'cormorant', serif;
+}
+
+.quotes {
+    font-size: 28pt;
+    font-weight: bold;
+}
+#endquote { 
+    float : right;
+}
+
+#signature {
+    float: right;
+    font-size: 16pt;
+    margin-top : 2em;
+}
+@media only screen and (min-width: 770px) and (max-width:1318px){
+    #about {
+        font-size: 16pt;
+    }
+    #about div {
+        width: 100%;
+    }
+    .first {
+        font-size: 28pt;
+    }
+    #bioImage{ 
+        width: 20%;
+    }
+    
+    #bio-text-cont {
+        width: 50%;
+    }
+}
+/*Mobile Support*/
+
+@media only screen and (min-width: 468px) and (max-width:769px) {
+    #about {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 18pt;
+    }
+    #about div {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 3em;
+    }
+    .first {
+        font-size: 28pt;
+    }
+    #bioCont {
+        text-align: center;
+    }
+    #bioImage {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 2em;
+    }
+    #bio-text-cont {
+        font-size: 16pt;
+        width: 100%;
+        margin: 0 auto;
+    }
+    #signature {
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    #about {
+        width: 95%;
+        margin: 0 auto;
+        font-size: 12pt;
+    }
+    .first {
+        font-size: 22pt;
+    }
+    #bioImage {
+        width: 50%;
+    }
+    #bio-text-cont {
+        padding: 1em;
+        text-align: center;
+        font-size: 14pt;
+        width: 90%;
+        margin: 0 auto;
+    }
+    #bio-text {
+        display: inline-block;
+    }
+    .quotes {
+        font-size: 24pt;
+    }
+    #signature {
+        font-weight: bold;
+    }
+}

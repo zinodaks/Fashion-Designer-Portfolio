@@ -1,0 +1,40 @@
+{
+    "Navbar": {
+        "Home": "Home",
+        "Couture": "Couture",
+        "Collaborations": "Collaborations",
+        "Portfolio": "Portfolio",
+        "CV": "CV",
+        "Contact": "Contact"
+    },
+    "Home": {
+        "Biography": "Apprendre à connaître différentes cultures n'a pas toujours été facile. Je suis Libanaise de naissance mais j'ai passé presque toute ma vie en République démocratique du Congo. Ou comment j'aime l'appeler, à la maison. Tout ce qui concerne le Congo m’inspire et c’est pourquoi vous verrez souvent le code vestimentaire traditionnel congolais rapidement intégré à mes créations. Je me retrouve à utiliser le tissu wax presque inconsciemment et je pense que c'est parce que les couleurs me rappellent la nature. De plus, le fait d'avoir passé mes années universitaires à Venise, en Italie, m'a vraiment donné l'inspiration d'essayer de mélanger certains aspects de la mode occidentale à la mode congolaise lors de la conception. Cela m’a beaucoup facilité la tâche pour essayer de mieux connaître des cultures complètement différentes, afin de trouver suffisamment de similitudes entre elles pour pouvoir les utiliser dans mes créations."
+    },
+    "CollaborationsTexts": {
+        "Levis": "Dans le cadre d'une ouverture de magasin et sur demande de Levi's, mon équipe et moi avons travaillé ensemble pour produire trois tenues en jean. Les tenues ont été faites pour correspondre au thème du carnaval de Venise 2019 parceque l'ouverture de la boutique a atterri ce jour-là et l'ouverture  du magasin a été à Venise, en Italie. Nous nous sommes promenés dans Venise avec des mannequins vêtus de tenues de carnaval et a terminé notre journée à la boutique de Levis en mettant les tenues sur la vitrine de la boutique.",
+        "Banco": "Un projet de collaboration au voyage dans le temps avec la compagnie Banco Lotto NO.10, qui comprenait imaginer le passé. Le concept consistait à créer une tenue manche bouffante aux années 50. Ce projet a était inspirée par Cristobal Balenciaga en utilisant uniquement du tissu denim. Le projet a également été considéré comme ma thèse personnelle à l'Institut Européen de Design."
+    },
+    "Portfolio": {
+        "Download": " Téléchargez Portfolio"
+    },
+    "CV": {
+        "Description": "Je suis une jeune professionnelle ambitieuse et sociable, à la recherche d’une carrière qui me permet d’exploiter ma personnalité sociale, mes goûts élégants et mes compétences professionnelles. J'aime me mettre au défi de faire mieux et d'être fier a résoudre des problèmes. Je pense que le travail d'équipe rend le travail plus facile et plus dynamique. En consacrant 100% de mes efforts, je suis convaincu d’apporter une valeur ajoutée à votre organisation.",
+        "Education": "EDUCATION",
+        "Skills": "COMPÉTENCES",
+        "Experience": "EXPÉRIENCE",
+        "Hobbies": "LOISIRS",
+        "Fashion_Skills": "Compétences Fashion",
+        "Fashion_Skills_Desc": "Dessiner et créer des tenues, modeler, coudre professionnel, produire des collections et mouler des tissus.",
+        "Computer_Skills": "Compétences Informatiques",
+        "Computer_Skills_Desc": "Adobe Illustrator, Photoshop et inDesign. Morgan Dynamics CAD pour la création de modèles.",
+        "Levis_Workshop": "Un projet qui consiste en une collaboration entre des étudiants d'IED et Levi's Venice afin d'imaginer et de coudre trois tenues Levi's autour du thème du carnaval de Venise 2019 pour l'ouverture d'un magasin Levi's à Venise.",
+        "Banco_Workshop": "Un projet qui implique la création d'une tenue en jean inspirée des années 1950 qui a également été considérée comme mon projet de remise des diplômes IED. Des images de la tenue peuvent être trouvées dans le portefeuille.",
+        "Hobbies_desc": "Dessin, recherche de mode tendance, photoshop, stylisme.",
+        "Download": " Téléchargez CV"
+    },
+    "ContactInfo": {
+        "Location": "Venise , Italie",
+        "Institute": "European Institute of Design (IED)",
+        "Language": "Français , Anglais , Arabe & Italien."
+    }
+}

@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+html , body { 
+    margin : 0px auto ;
+    scroll-behavior : smooth ;
+}
+@font-face { 
+    font-family : cinzel ;
+    src: url(/assets/fonts/Cinzel_Decorative/CinzelDecorative-Regular.ttf); 
+}
+@font-face {
+    font-family : cormorant ; 
+    src: url(/assets/fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf);
+}
+@font-face { 
+    font-family : dancing ;
+    src: url(/assets/fonts/Dancing_Script/DancingScript-Regular.ttf);
+}
+@font-face { 
+    font-family: courgette ;
+    src: url(/assets/fonts/Courgette/Courgette-Regular.ttf);
+}
+@font-face { 
+    font-family: libre;
+    src: url(/assets/fonts/Libre_Caslon_Text/LibreCaslonText-Regular.ttf);
+}
+@font-face { 
+    font-family: montserrat;
+    src: url(/assets/fonts/Montserrat/Montserrat-Regular.ttf);
+}
+@font-face { 
+    font-family: oswald;
+    src: url(/assets/fonts/Oswald/Oswald-Regular.ttf);
+}

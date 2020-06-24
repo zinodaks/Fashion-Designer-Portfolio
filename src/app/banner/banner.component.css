@@ -1,0 +1,66 @@
+.container {
+    background: url(/assets/Images/banner.jpg) no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+
+.skewedCont {
+    background: rgba(0, 0, 0, 0.5);
+    transform: rotate(-65deg);
+    padding: 20em;
+}
+
+.titleContainer {
+    text-align: center;
+}
+
+.title {
+    color: #D4AF37;
+    margin: 0 auto;
+    transform: rotate(65deg);
+    display: inline-block;
+    font-size: 40pt;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'dancing', cursive;
+    color: white;
+}
+
+.title  span {
+    color: #D4AF37;
+}
+
+/*Mobile Support*/
+@media only screen and (min-width : 769px) and (max-width:1025px) {
+    .skewedCont {
+        padding : 15em;
+    }
+}
+@media only screen and (min-width: 468px) and (max-width:768px) {
+    .skewedCont { 
+        padding : 2em;
+    }
+    .titleContainer { 
+        padding: 35em 0em;
+    }
+    .title {
+        font-size: 32pt;
+    }
+}
+
+@media only screen and (max-width: 467px) {
+    .skewedCont {
+        transform: rotate(-65deg);
+        padding: 2.5em;
+    }
+    .titleContainer {
+        padding: 14em 0em;
+        width: 100%;
+    }
+    .title {
+        transform: rotate(65deg);
+        width: 100%;
+        font-size: 22pt;
+    }
+}

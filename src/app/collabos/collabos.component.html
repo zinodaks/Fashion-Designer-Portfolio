@@ -1,0 +1,26 @@
+<app-pagebanner [title]=title></app-pagebanner>
+<div class="container">
+  <div class="gallery">
+    <div *ngFor="let item of levis" class="gallery-item">
+      <img class="gallery-image" src="{{item.source}}">
+    </div>
+  </div>
+  <div class="desccont">
+    <p class="description" [innerHTML]="'CollaborationsTexts.Levis' | translate"> </p>
+  </div>
+  <div class="logo">
+    <img id="logoImg" src="/assets/Images/projects/Levis/logo.png">
+  </div>
+  <hr>
+  <div class="container">
+    <div class="gallery">
+      <div *ngFor="let item of bancolotto" class="gallery-item">
+        <img class="gallery-image" src="{{item.source}}">
+      </div>
+    </div>
+    <div class="desccont">
+      <p class="description" [innerHTML]="'CollaborationsTexts.Banco' | translate"></p>
+    </div>
+    <div class="logo">
+      <img id="logoImg" src="/assets/Images/projects/Bancolotto/logo.jpg">
+    </div>
