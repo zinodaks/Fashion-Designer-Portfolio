@@ -18,9 +18,9 @@ import { PagedPortfolioComponent } from './paged-portfolio/paged-portfolio.compo
 import { ConnectionService } from './connection.service';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
-import {TranslateModule, TranslateLoader, TranslateStaticLoader} from 'ng2-translate/ng2-translate';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { CollageComponent } from './collage/collage.component';
 import { CollectionComponent } from './collection/collection.component';
 
@@ -50,12 +50,17 @@ import { CollectionComponent } from './collection/collection.component';
     FormsModule,
     HttpClientModule,
     TranslateModule.forRoot({
-      provide: TranslateLoader,
-      useFactory: (http: HttpClient) => new TranslateStaticLoader(http, '/assets/i18n', '.json'),
-      deps: [HttpClient]
-  })
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [ConnectionService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
