@@ -20,7 +20,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import {TranslateModule, TranslateLoader, TranslateStaticLoader} from 'ng2-translate/ng2-translate';
-import { Http } from '@angular/http';
+import { HttpClient } from '@angular/common/http';
 import { CollageComponent } from './collage/collage.component';
 import { CollectionComponent } from './collection/collection.component';
 
@@ -51,8 +51,8 @@ import { CollectionComponent } from './collection/collection.component';
     HttpClientModule,
     TranslateModule.forRoot({
       provide: TranslateLoader,
-      useFactory: (http: Http) => new TranslateStaticLoader(http, '/assets/i18n', '.json'),
-      deps: [Http]
+      useFactory: (http: HttpClient) => new TranslateStaticLoader(http, '/assets/i18n', '.json'),
+      deps: [HttpClient]
   })
   ],
   providers: [ConnectionService],
