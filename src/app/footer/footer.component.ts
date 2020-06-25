@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import {TranslateService} from '@ngx-translate/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-footer',
@@ -16,14 +16,17 @@ export class FooterComponent implements OnInit {
 
   ngOnInit() {
   }
+
   public useLanguage(language: string) {
     this.translate.use(language);
     localStorage.setItem('language', language);
     window.scrollTo(0, 0);
   }
+
   close() {
     (this.dropup[0] as HTMLElement).style.display = 'none';
   }
+
   @HostListener('document:click', ['$event'])
   @HostListener('document:touchstart', ['$event'])
   documentClick(event) {

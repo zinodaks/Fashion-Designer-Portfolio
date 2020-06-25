@@ -25,7 +25,7 @@ nav {
 }
 
 .nav-item:hover:not(.active) {
-    border-bottom: 4px solid #D4AF37;
+    color: #D4AF37;
 }
 
 .nav-item.active {
