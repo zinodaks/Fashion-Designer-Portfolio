@@ -1,27 +1,10 @@
-# LilianePortfolio
+# Fashion Designer Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
+A freelance project for a client who happens to be a fashion designer. The requirements were to make a static portfolio website where the client is able to showcase her work in fashion along with her CV and other information.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) because I was interested in learning Angular at the time and the client had mentioned that the website might scale up to become an online store later on.
 
-## Code scaffolding
+The website is question can be found [here](https://lilianeyahfoufi.com). It is completely responsive and should look just as great on mobile as on desktop. The user can choose to browse the website in English , French or Italian.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The client has given me permission to be able to share it here in order to showcase my work since it is simply a static website so far. The client will confirm this if need be. 
