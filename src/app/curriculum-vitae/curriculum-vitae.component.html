@@ -1,62 +1,56 @@
-<app-pagebanner [title]=title></app-pagebanner>
+<app-pagebanner [title]="title"></app-pagebanner>
 <div class="headCont">
-    <div class="intro">
-        <img src="/assets/Images/cvImage.jpg">
-        <div class="name">
-            <h1>Liliane Yahfoufi</h1>
-            <h2>Fashion Designer</h2>
-        </div>
-        <hr>
+  <div class="intro">
+    <img src="/assets/Images/cvImage.jpg" />
+    <div class="name">
+      <h1>Liliane Yahfoufi</h1>
+      <h2>Fashion Designer</h2>
     </div>
-    <div class="description">
-        <div class="para" [innerHTML]="'CV.Description' | translate"></div>
+    <hr />
+  </div>
+  <div class="description">
+    <div class="para" [innerHTML]="'CV.Description' | translate"></div>
+  </div>
+  <div class="qualityCont">
+    <div class="quality">
+      <h2 class="title" [innerHTML]="'CV.Education' | translate"></h2>
+      <div class="right">
+        <h2>European Institute of Design</h2>
+        <p>
+          <strong>Program : </strong> Professional Training Program <br />
+          <strong>Major : </strong> Modellist & Stylist
+        </p>
+      </div>
     </div>
-    <div class="qualityCont">
-        <div class="quality">
-            <h2 class="title" [innerHTML]="'CV.Education' | translate"></h2>
-            <div class="right">
-                <h2>European Institute of Design </h2>
-                <p><strong>Program : </strong> Professional Training Program <br />
-                    <strong>Major : </strong> Modellist & Stylist</p>
-            </div>
-        </div>
+  </div>
+  <div class="qualityCont">
+    <div class="quality">
+      <h2 class="title" [innerHTML]="'CV.Skills' | translate"></h2>
+      <div class="right">
+        <h2 [innerHTML]="'CV.Fashion_Skills' | translate"></h2>
+        <p [innerHTML]="'CV.Fashion_Skills_Desc' | translate"></p>
+        <h2 [innerHTML]="'CV.Computer_Skills' | translate"></h2>
+        <p [innerHTML]="'CV.Computer_Skills_Desc' | translate"></p>
+      </div>
     </div>
-    <div class="qualityCont">
-        <div class="quality">
-            <h2 class="title" [innerHTML]="'CV.Skills' | translate"></h2>
-            <div class="right">
-                <h2 [innerHTML]="'CV.Fashion_Skills' | translate"></h2>
-                <p [innerHTML]="'CV.Fashion_Skills_Desc' | translate"> </p>
-                <h2 [innerHTML]="'CV.Computer_Skills' | translate"></h2>
-                <p [innerHTML]="'CV.Computer_Skills_Desc' | translate">
-                </p>
-            </div>
-        </div>
+  </div>
+  <div class="qualityCont">
+    <div class="quality">
+      <h2 class="title" [innerHTML]="'CV.Experience' | translate"></h2>
+      <div class="right">
+        <h2>Levi's Workshop</h2>
+        <p [innerHTML]="'CV.Levis_Workshop' | translate"></p>
+        <h2>Banco Lotto No.10 Collaboration</h2>
+        <p [innerHTML]="'CV.Banco_Workshop' | translate"></p>
+      </div>
     </div>
-    <div class="qualityCont">
-        <div class="quality">
-            <h2 class="title" [innerHTML]="'CV.Experience' | translate"></h2>
-            <div class="right">
-                <h2> Levi's Workshop
-                </h2>
-                <p [innerHTML]="'CV.Levis_Workshop' | translate"></p>
-                <h2> Banco Lotto No.10 Collaboration</h2>
-                <p [innerHTML]="'CV.Banco_Workshop' | translate"> </p>
-            </div>
-        </div>
+  </div>
+  <div class="qualityCont">
+    <div class="quality">
+      <h2 class="title" [innerHTML]="'CV.Hobbies' | translate"></h2>
+      <div class="right">
+        <p [innerHTML]="'CV.Hobbies_desc' | translate"></p>
+      </div>
     </div>
-    <div class="qualityCont">
-        <div class="quality">
-            <h2 class="title" [innerHTML]="'CV.Hobbies' | translate"></h2>
-            <div class="right">
-                <p [innerHTML]="'CV.Hobbies_desc' | translate"></p>
-            </div>
-        </div>
-    </div>
-    <div class="downloadButton">
-        <button>
-            <a href="/assets/Downloadables/cv.jpg" download="portfolio">
-                <i id="down" class="fa fa-download" aria-hidden="true"></i> <span id="downtext" [innerHTML]="'CV.Download' | translate"></span>
-            </a>
-        </button>
-    </div>
+  </div>
+</div>

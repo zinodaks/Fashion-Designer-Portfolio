@@ -1,11 +1,12 @@
 nav {
-    background-color: #26272b;
+    background-color: white;
     height: 4em;
     position: fixed;
     top: 0;
     width: 100%;
     overflow: hidden;
     z-index: 999;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3), 0 1px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 .container {
@@ -14,7 +15,7 @@ nav {
 }
 
 .nav-item {
-    color: white;
+    color: #a62a39;
     font-family: 'cinzel', cursive;
     list-style-type: none;
     display: inline-block;
@@ -25,16 +26,19 @@ nav {
 }
 
 .nav-item:hover:not(.active) {
-    color: #D4AF37;
+    color: #0c5524;
+    font-weight: bold;
 }
 
 .nav-item.active {
-    color: #D4AF37;
+    color: #0c5524;
+    font-weight: bold;
+
 }
 
 .logo {
     font-family: 'cinzel', cursive;
-    color: #D4AF37;
+    color: #a62a39;
     display: inline-block;
     margin-top: 20px;
     margin-left: 2%;
@@ -43,20 +47,24 @@ nav {
 
 .logoText {
     display: inline;
+    color: #a62a39;
+    /* font-family: 'El Messiri', sans-serif; */
 }
 
 .closeIcon, .burgerIcon {
     list-style-type: none;
     font-size: 25pt;
-    color: white;
+    color: #a62a39;
     background-color: none;
     display: none;
     outline: none;
     margin-top: 2%;
 }
+
 .closeIcon {
     font-size: 40pt;
 }
+
 @media only screen and (min-width: 0px) and (max-width: 930px) {
     .container {
         display: none;
@@ -99,7 +107,8 @@ nav {
         font-size: 14pt;
     }
 }
-@media only screen and (min-width: 1023px) and (max-width : 2000px){
+
+@media only screen and (min-width: 1023px) and (max-width: 2000px) {
     .burgerIcon {
         display: none !important;
     }
@@ -109,8 +118,8 @@ nav {
     .navbar {
         display: block !important;
     }
-    .nav-item { 
-        padding : 10px 15px ;   
-        font-size : 10pt;
+    .nav-item {
+        padding: 8px 12px;
+        font-size: 18px;
     }
 }

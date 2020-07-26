@@ -27,7 +27,7 @@
 }
 
 .link.active {
-    background-color: #D4AF37;
+    background-color: #a62a39;
     color: white;
 }
 
@@ -82,12 +82,12 @@
     border: none;
     padding: 1.5em 5em;
     margin: 5em;
-    background-color : #D4AF37;
+    background-color: #0c5524;
     border-radius: 40px;
 }
 
 .downloadButton button:hover {
-    background-color: black;
+    background-color: #a62a39;
 }
 
 #down {
